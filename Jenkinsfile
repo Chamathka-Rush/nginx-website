@@ -6,7 +6,6 @@ pipeline {
             steps {
                 script{
                     sh 'git clone https://github.com/Chamathka-Rush/nginx-website.git'
-                    sh 'git pull origin master'
                     echo 'cloned the repository...'
                     sh "pwd" 
                     sh "ls -lh"
